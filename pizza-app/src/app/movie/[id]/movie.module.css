@@ -1,0 +1,54 @@
+.movieContainer{
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.releaseDate{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.movieInfo{
+    margin-left: 1rem;
+     
+}
+
+.movieTitle{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+
+.textDesc{   
+    padding-bottom: 10px; 
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.movieDesc {
+    font-size: 1.5rem;
+    border-color: white; 
+    border-radius: 5px;
+    padding-bottom: 5rem;
+}
+
+.circle{
+    margin-top: 3.5rem;
+}
+
+.movieRatings {
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+
+.peopleImage {
+    width: 345px;
+    height: 205px;
+}
+
+.movieVotes{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    text-align: center;
+}

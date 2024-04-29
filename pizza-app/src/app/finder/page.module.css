@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center; /* Center text in the container */
+}
+
+.imageContainer {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.image {
+  max-width: 50%;
+  height: auto;
+}
+
+.text {
+  margin-bottom: 20px; /* Add some space below the text wrapper */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center text in the wrapper */
+  font-size: 1.6rem; /* Adjust the font size */
+  font-weight: 600;
+}
+
+.moviesContainer {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Display 7 columns per row */
+  gap: 20px;
+  margin-top: 20px;
+  grid-auto-rows: auto; 
+}
+
+.movieBox {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: background-color 0.2s; /* Add a transition for smooth hover effect */
+}
+
+.movieBox:hover {
+  background-color: #888; /* Change the background color to a lighter shade on hover */
+}
+
+.movieImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add rounded corners to images */
+}
+
+.movieTitle {
+  font-weight: bolder;
+  color: #292626;
+  margin: 10px 0;
+}
+
+.movieYear {
+  color: #000;
+  font-weight: bold; /* Make the year text bold */
+}
+
+.button {
+  padding: 20px;
+  cursor: pointer;
+  background-color: #D7263D;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+  font-weight: 600;
+}
+
+.button:hover{
+  background-color: #FF6B6B; 
+  transition: background-color 0.3s ease; 
+}
